@@ -32,6 +32,7 @@ export const AddCard = ({ currentDeck, addCard, updateCardCount }) => {
           <li class="breadcrumb-item">Create New</li>
         </ol>
       </nav>
+      <h2>Add Card:</h2>
       <CardForm 
         changeHandler={changeHandler}
         submitHandler={submitHandler}

@@ -5,7 +5,6 @@ import "./StudyStyles.css"
 const Study = ({ currentDeck, history, cards }) => {
   const [front, setFront] = useState(true);
   const [cardIndex, setCardIndex] = useState(0);
-  const card = currentDeck.cards;
   
   const flipper = () => {
     setFront(!front);
@@ -34,7 +33,7 @@ const Study = ({ currentDeck, history, cards }) => {
           <h5>Card {cardIndex + 1} of {cards.length}</h5>
         </div>
         <div>
-          <p className="studyCard">{front ? card[cardIndex].front : card[cardIndex].back}</p>
+          <p className="studyCard">{front ? cards[cardIndex].front : cards[cardIndex].back}</p>
           <div className="btnContainer">
             {front ? 
               null : 
