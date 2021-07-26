@@ -1,0 +1,52 @@
+.createNewDeck-formWrapper {
+  max-width: 100%;
+}
+
+.createNewDeck-nameWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: auto;
+}
+
+.createNewDeck-nameField {
+  max-width: inherit;
+}
+
+/* .createNewDeck-nameText {
+
+} */
+
+.createNewDeck-descWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: inherit;
+}
+
+/* .createNewDeck-descriptionText {
+
+} */
+ 
+.createNewDeck-descriptionField {
+  max-width: 100%;
+}
+
+.createNewDeck-cancelBtn {
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 5px;
+  padding: 6px;
+  background: grey;
+  color: #fff;
+}
+
+.createNewDeck-submitButton {
+  border-radius: 5px;
+  background: #4287f5;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}

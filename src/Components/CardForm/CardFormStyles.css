@@ -1,0 +1,44 @@
+.newCardForm-infoWrapper {
+  max-width: 100%;
+}
+
+.newCardForm-frontWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: auto;
+}
+
+.newCardForm-frontTextArea {
+  max-width: inherit;
+}
+
+.newCardForm-backWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: auto;
+}
+
+.newCardForm-backTextArea {
+  max-width: inherit;
+}
+
+.newCardForm-doneBtn {
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 5px;
+  padding: 6px;
+  background: grey;
+  color: #fff;
+}
+
+.newCardForm-submitBtn {
+  border-radius: 5px;
+  background: #4287f5;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}

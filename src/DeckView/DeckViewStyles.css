@@ -1,0 +1,39 @@
+.cardList-btns {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-bottom: 8px;
+}
+
+.cardList-deckEditBtn {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  padding: 0 5px;
+}
+
+.cardList-deckStudyBtn {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+.cardList-addCardBtn {
+  border-style: solid;
+  border-radius: 5px;
+  margin: 0 5px;
+  padding: 0 5px;
+}
+
+.cardList-deleteDeckBtn {
+  border-radius: 5px;
+  align-self: flex-end;
+  background-color:lightcoral;
+  color: #000;
+  margin: 0 5px;
+}
+
+/* .deckView-cardListWrapper {
+  padding-bottom: 125px;
+} */
